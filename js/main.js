@@ -3,8 +3,6 @@ const ham = document.querySelector('.ham');
 const xIcon = document.querySelector('.xIcon');
 const menuIcon = document.querySelector('.menuIcon');
 
-ham.addEventListener('click', toggleMenu);
-
 function toggleMenu() {
   if (menu.classList.contains('showMenu')) {
     menu.classList.remove('showMenu');
@@ -16,6 +14,8 @@ function toggleMenu() {
     menuIcon.style.display = 'none';
   }
 }
+
+ham.addEventListener('click', toggleMenu); // eslint-disable-line no-alert
 
 const menuLinks = document.querySelectorAll('.menuLink');
 
