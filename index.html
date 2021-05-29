@@ -7,13 +7,27 @@
     <link rel="stylesheet" href="./css/main.css" />
     <link rel="icon" href="./favicon.ico" />
     <title>Aziz Mejri - Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <h1 id="logo">Aziz Mejri</h1>
-      <button type="button" class="menu-bars">
-        <i class="fas fa-bars"></i>
+      <button class="ham">
+        <span class="menuIcon material-icons"> menu </span>
+        <span class="xIcon material-icons"> close </span>
       </button>
+      <ul class="menu">
+        <li><a class="nav-link" href="#projects">Portoflio</a></li>
+        <li><a class="nav-link" href="#about-me">About</a></li>
+        <li>
+          <a class="nav-link" href="#contact"
+            >Contact <i class="far fa-envelope"></i
+          ></a>
+        </li>
+      </ul>
       <nav id="desktop-nav">
         <ul>
           <li><a class="nav-link" href="#projects">Portoflio</a></li>
@@ -442,5 +456,6 @@
       src="https://kit.fontawesome.com/e966a3bd22.js"
       crossorigin="anonymous"
     ></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
