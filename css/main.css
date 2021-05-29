@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&family=Inter:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&family=Inter:wght@400;700&display=swap");
 
 * {
   padding: 0;
@@ -65,6 +65,15 @@ header {
 
 li {
   padding: 1rem 0;
+  list-style: none;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: normal;ß
+  font-size: 22px;
+  line-height: 43px;ß
+  text-align: center;
+  color: #fff;
+  padding: 5px;
 }
 
 .menuLink {
@@ -84,7 +93,7 @@ li {
 }
 
 #logo {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -131,7 +140,7 @@ main {
 }
 
 .card h2 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 32px;
@@ -142,7 +151,7 @@ main {
 .intro-greet,
 #about-me h2 {
   color: #ff6b00;
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 56px;
@@ -151,7 +160,7 @@ main {
 }
 
 .intro-me {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -161,7 +170,7 @@ main {
 }
 
 .intro-text {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -205,7 +214,7 @@ main {
 }
 
 #projects h2 {
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -246,7 +255,7 @@ main {
 
 .description,
 .white-description {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -279,18 +288,6 @@ main {
   right: 0;
 }
 
-li {
-  list-style: none;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 22px;
-  line-height: 43px;
-  text-align: center;
-  color: #fff;
-  padding: 5px;
-}
-
 .card-stacks li {
   background: rgba(255, 255, 255, 0.24) !important;
   backdrop-filter: blur(2px);
@@ -298,19 +295,19 @@ li {
 }
 
 .gtime {
-  background-image: url('../media/png/gtime.png');
+  background-image: url("../media/png/gtime.png");
 }
 
 .weather {
-  background-image: url('../media/png/weather.png');
+  background-image: url("../media/png/weather.png");
 }
 
 .conference {
-  background-image: url('../media/png/conference.png');
+  background-image: url("../media/png/conference.png");
 }
 
 .katchy {
-  background-image: url('../media/png/katchy.png');
+  background-image: url("../media/png/katchy.png");
 }
 
 .project-stacks {
@@ -345,7 +342,7 @@ li {
 }
 
 .about-me-text {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -360,7 +357,7 @@ li {
   justify-content: center;
   padding: 12px;
   background: #ff6b00;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -391,7 +388,7 @@ li {
 }
 
 .list-title {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -399,15 +396,15 @@ li {
 }
 
 .languages {
-  list-style: inside url('../media/svg/rectangle.svg');
+  list-style: inside url("../media/svg/rectangle.svg");
 }
 
 .frameworks {
-  list-style: inside url('../media/svg/square.svg');
+  list-style: inside url("../media/svg/square.svg");
 }
 
 .skills {
-  list-style: inside url('../media/svg/circle.svg');
+  list-style: inside url("../media/svg/circle.svg");
 }
 
 #contact {
@@ -415,7 +412,7 @@ li {
 }
 
 #contact h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -444,7 +441,7 @@ textarea {
 
 input,
 textarea {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
@@ -463,8 +460,7 @@ textarea {
   align-items: center;
   justify-content: space-around;
   padding: 5vh;
-  filter: invert(67%) sepia(46%) saturate(986%) hue-rotate(179deg)
-    brightness(92%) contrast(82%);
+  filter: invert(67%) sepia(46%) saturate(986%) hue-rotate(179deg) brightness(92%) contrast(82%);
 }
 
 @media all and (min-width: 720px) {
@@ -505,7 +501,7 @@ textarea {
   }
 
   .nav-link {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
